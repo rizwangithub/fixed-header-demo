@@ -15,10 +15,22 @@
                 top:0;
             }
 
+            #header-items-wrapper {
+                width: 1000px;
+                margin: 0 auto;
+            }
+
             .header-item {
-                padding: 0 0 0 20px;
+                padding: 0 20px;
                 float: left;
                 text-transform: uppercase;
+                cursor: pointer;
+                text-align: center;
+            }
+
+            .header-item:hover {
+                text-decoration: underline;
+                background-color: #b2b2b2;
             }
 
             #container {
@@ -33,22 +45,24 @@
     </head>
     <body>
         <div id="header">
-            <div class="header-item">
-                My awesome logo
-            </div>
-            <div class="header-item">
-                Header Item #1
-            </div>
-            <div class="header-item">
-                Header Item #2
-            </div>
-            <div class="header-item">
-                Header Item #3
-            </div>
-            <div class="header-item">
-                Header Item #4
-            </div>
-            <div style="clear:both;">
+            <div id="header-items-wrapper">
+                <div class="header-item">
+                    My awesome logo
+                </div>
+                <div class="header-item">
+                    Header Item #1
+                </div>
+                <div class="header-item">
+                    Header Item #2
+                </div>
+                <div class="header-item">
+                    Header Item #3
+                </div>
+                <div class="header-item">
+                    Header Item #4
+                </div>
+                <div style="clear:both;">
+                </div>
             </div>
         </div>
         <div id="container">
